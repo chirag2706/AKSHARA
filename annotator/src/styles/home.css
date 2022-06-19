@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+.main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.desc {
+    color: white;
+    font-size: 20px;
+}
+
+.sub-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #7175da;
+}
+
+.sub-desc {
+    width: 700px;
+    text-align: center;
+    font-weight: 300;
+}

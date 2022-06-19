@@ -1,0 +1,28 @@
+#projectSideBar .nav-item {
+    margin: 3px 0px;
+}
+
+#projectSideBar .nav-link {
+    color: black !important;
+}
+
+.nav-link .project-title {
+    font-size: 16px;
+    padding-left: 10px;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-link .project-creator-container {
+    padding-left: 10px;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-link .project-creator {
+    font-size: 16px;
+}

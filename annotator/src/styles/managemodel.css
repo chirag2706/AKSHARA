@@ -1,0 +1,203 @@
+.document-navbar button {
+  background-color: #ff6500 !important;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.document-navbar button:hover {
+  color: white;
+}
+
+.active .nav-button {
+  background-color: white !important;
+  color: #ff6500;
+}
+
+#modelname-input {
+  width: 100%;
+  background: #fff;
+  color: #000;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 12px 18px;
+}
+
+#train-button {
+  width: 80%;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  background: #7f8ff4;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 12px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#train-button:hover {
+  background: #6c7ff2;
+}
+
+.modelinput-errormsg {
+  padding: 10px;
+  color: red;
+  font-size: 14px;
+}
+
+.progress-container {
+    margin-bottom: 20px;
+}
+
+.submodelpools-container {
+    max-height: 25px;
+    word-break: break-all;
+    overflow: hidden;
+    background-color: #6fc0ab;
+    color: white;
+}
+
+.submodelpools-helpertext {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.submodelpools {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.submodelpool-pill {
+    margin: 0px 3px;
+    padding: 0px 5px;
+    padding-bottom: 3px;
+    color: #fff;
+}
+
+.moreinfo-tag {
+    font-size: 12px; 
+    color: blue; 
+    text-decoration: underline; 
+    cursor: pointer;
+}
+
+.annotate-container {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.selected-modelpools {
+    height: 100px;
+    margin: 0px 20px;
+}
+
+.selected-pill {
+    background-color: #fefd98;
+    color: #000;
+    padding: 3px 10px;
+    font-size: 12px;
+    border: 1px solid #ebc137;
+    height: 27px;
+    margin: 2px 5px;
+}
+
+.pills-container {
+    margin: 0px;
+    max-height: 98px;
+    overflow: auto;
+    padding: 3px 0px;
+}
+
+.pill-title {
+    padding: 0px;
+    padding-left: 10px;
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.model-pill-title {
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.cancel-sign {
+    cursor: pointer;
+}
+
+.annotate-button {
+    margin: 10px 20px;
+}
+
+.create-modelpool {
+    padding-top: 10px;
+}
+
+.input-field {
+    color: #99A3BA;
+    border: 1px solid #275EFE;
+    background: #fff;
+    transition: border .3s ease;
+    outline: none;
+    
+}
+
+.input-field:focus {
+    box-shadow: none;
+    border-color: #275EFE;
+}
+
+/* .input-field::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 10px;
+    line-height: 1;
+} */
+
+.input-helpertext {
+    color: #fff;
+    background: #678EFE;
+    border: 1px solid #275EFE;
+    transition: background .3s ease, border .3s ease, color .3s ease;
+}
+
+.hint {
+    font-size: 12px;
+}
+
+.create-button {
+    margin: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.modal-sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.modal-desc {
+    font-size: 16px;
+    color: grey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-subcontainer {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
